@@ -7,14 +7,14 @@ async function sendmail() {
     let mailTransport = nodemailer.createTransport({
         service: "gmail",
         auth: {
-            user: "gsoni7424@gmail.com",
-            pass: "zyus qfjp mmoo sbvt"
+            user: "yourmail@gmail.com",
+            pass: "zyus 3qfjp mmoo sbvt"
         }
     })
 
     let mailOptions = {
-        from: 'gsoni7424@gmail.com',
-        to: 'gauravsoni176415@gmail.com', // Can be a comma-separated string for multiple recipients
+        from: 'senderMial@gmial.com',
+        to: 'recievermial@gmail.com', // Can be a comma-separated string for multiple recipients
         subject: 'Sending Email with Nodemailer',
         text: 'This is a plain text email from Nodemailer.',
         html: '<b>This is an HTML email from Nodemailer!</b>' // Optional HTML body
@@ -28,6 +28,7 @@ async function sendmail() {
 
 
 }
+
 
 
 
